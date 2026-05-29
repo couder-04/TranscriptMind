@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+
+# Large Model Files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face Cache
+.cache/
+huggingface/
+
+# Dataset Outputs (optional)
+Dataset/raw_transcripts/*
+Dataset/cleaned_transcripts/*
+!Dataset/raw_transcripts/.gitkeep
+!Dataset/cleaned_transcripts/.gitkeep
+
+# Generated Outputs
+Outputs/*
+!Outputs/.gitkeep
+
+# Evaluation Results
+Evaluation/*.csv
+
+# Experiment Artifacts
+Experiments/**/results/
